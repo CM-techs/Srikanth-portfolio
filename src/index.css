@@ -42,3 +42,47 @@ body {
 .contact-section { background: rgba(255,255,255,0.13); }
 
 html { scroll-behavior: smooth; }
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .section {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-left, .hero-right {
+    width: 100%;
+  }
+  .hero-right img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+  .navbar__menu {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .hero-left h1 {
+    font-size: 2rem;
+  }
+  .hero-left h3 {
+    font-size: 1.2rem;
+  }
+  .primary-btn, .secondary-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}

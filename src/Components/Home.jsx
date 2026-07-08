@@ -98,6 +98,7 @@ function Home() {
         <span>🎓</span>
         <div>
           <h4>Education</h4>
+          <p>B.Sc Physics</p>
           <p>M.Sc Physics</p>
         </div>
       </div>
