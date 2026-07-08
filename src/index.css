@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  /* Black Glass Background */
+  background:
+    radial-gradient(circle at top left, rgba(0, 183, 255, 0.12), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(162, 89, 255, 0.12), transparent 35%),
+    linear-gradient(135deg, #050505, #0d0d0d, #050505);
+
+  color: white;
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  box-sizing: border-box;
+}
+
+/* Section styling */
+.section {
+  padding: 4rem 2rem;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* Optional alternating backgrounds */
+.home-section { background: rgba(255,255,255,0.05); }
+.about-section { background: rgba(255,255,255,0.07); }
+.projects-section { background: rgba(255,255,255,0.09); }
+.skills-section { background: rgba(255,255,255,0.11); }
+.contact-section { background: rgba(255,255,255,0.13); }
+
+html { scroll-behavior: smooth; }
