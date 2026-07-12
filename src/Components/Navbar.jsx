@@ -40,7 +40,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar__logo">MyPortfolio</div>
+      <div className="navbar__logo">SRI KANTH. M</div>
 
       {/* Hamburger */}
       <div
